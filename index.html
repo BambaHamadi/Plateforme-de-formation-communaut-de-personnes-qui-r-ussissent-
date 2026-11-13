@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#075b37"><title>مجتمع الناجحين</title>
+<style>
+:root{--green:#075b37;--green2:#0b8752;--gold:#e5b844;--ink:#18352a;--bg:#f2f7f3}*{box-sizing:border-box}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:var(--bg);color:var(--ink)}header{background:linear-gradient(120deg,#043d2a,#08784a);color:#fff;padding:26px 18px 34px;text-align:center;border-bottom:5px solid var(--gold)}header h1{font-size:clamp(28px,6vw,42px);margin:8px 0}header p{margin:8px 0;color:#e4f5e9}.tree{font-size:42px}main{max-width:1050px;margin:-18px auto 40px;padding:0 14px}.notice{background:#fff8e4;border:1px solid #ecd58e;padding:13px;border-radius:14px;margin-bottom:16px;font-size:14px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.card{background:white;border-radius:16px;padding:18px;box-shadow:0 5px 18px #1232;border:1px solid #e1ebe4}.card h2{font-size:19px;margin:0 0 10px;color:var(--green)}.card p{line-height:1.7;margin:6px 0 12px;color:#53665b}.btn{display:inline-block;background:var(--green2);color:white;border:0;border-radius:10px;padding:11px 15px;font-weight:bold;cursor:pointer;text-decoration:none}.btn.secondary{background:#eaf4ed;color:var(--green)}label{display:block;font-weight:bold;font-size:14px;margin:11px 0 5px}input,textarea,select{width:100%;padding:12px;border:1px solid #cbd9cf;border-radius:9px;font:inherit;background:#fff}textarea{min-height:80px}form .btn{margin-top:14px;width:100%}.status{font-size:13px;color:#7b5b00;background:#fff3cf;padding:8px;border-radius:8px;margin-top:10px}.muted{font-size:12px;color:#68796e;line-height:1.7}footer{text-align:center;padding:22px;color:#62766a;font-size:13px}
+</style></head>
+<body>
+<header><div class="tree">🌳</div><h1>مجتمع الناجحين</h1><p>معًا نحو النجاح والتميز</p><p>منصة للتواصل والتدريب وتنظيم العمل الجماعي</p></header>
+<main>
+<div class="notice"><strong>مرحبًا بك في مجتمع الناجحين.</strong> التسجيل يتطلب رقم عضوية DXN، ثم تتم مراجعة الطلب من الإدارة قبل تفعيل الحساب.</div>
+<section class="grid">
+<div class="card"><h2>📝 الانضمام للمجتمع</h2><p>أرسل بياناتك ورقم عضويتك ليراجعها مسؤول المجتمع.</p>
+<form id="joinForm"><label>الاسم الكامل</label><input name="name" required placeholder="اكتب اسمك الكامل"><label>رقم عضوية DXN</label><input name="membership" required placeholder="رقم العضوية"><label>رقم الهاتف</label><input name="phone" required inputmode="tel" placeholder="رقم التواصل"><label>رسالة (اختياري)</label><textarea name="message" placeholder="عرّفنا بنفسك"></textarea><button class="btn" type="submit">إرسال طلب الانضمام</button></form><div id="joinStatus" class="status" hidden></div></div>
+<div class="card"><h2>📅 جدولة المواعيد</h2><p>سجل موعدًا تدريبيًا أو اجتماعًا للفريق.</p><form id="meetingForm"><label>الاسم</label><input name="person" required><label>نوع الموعد</label><select name="kind"><option>تدريب</option><option>اجتماع فريق</option><option>استشارة</option></select><label>التاريخ</label><input type="date" name="date" required><label>الوقت</label><input type="time" name="time" required><button class="btn" type="submit">حفظ الموعد على هذا الجهاز</button></form><div id="meetingStatus" class="status" hidden></div></div>
+<div class="card"><h2>🎓 التدريب</h2><p>مسارات مقترحة لتطوير مهارات الفريق.</p><ul><li>التعريف بالمشروع والمنتجات بمعلومات موثوقة.</li><li>مهارات التواصل والاستماع لاحتياج العميل.</li><li>تنظيم المتابعة وخدمة العملاء.</li><li>بناء الفريق والتدريب المستمر.</li></ul></div>
+<div class="card"><h2>💬 التواصل</h2><p>خصصوا قناة رسمية للتواصل والإعلانات، مع احترام خصوصية الأعضاء.</p><p class="muted">يمكن إضافة رابط مجموعة واتساب أو وسيلة التواصل الرسمية بعد تزويدنا بالرابط.</p></div>
+<div class="card"><h2>📊 لوحة متابعة الفريق</h2><p>متابعة طلبات الانضمام والمواعيد والأنشطة بعد ربط المنصة بقاعدة بيانات آمنة.</p><p class="muted">نسخة العرض الحالية تحفظ المواعيد محليًا على الجهاز فقط، ولا ترسلها إلى القائد.</p></div>
+<div class="card"><h2>🔐 اعتماد العضوية</h2><p>لا يُفعّل الحساب إلا بعد مراجعة العضوية والتحقق منها عبر وسيلة رسمية أو مراجعة إدارية.</p><p class="muted">إدخال رقم العضوية وحده لا يثبت صحتها. لا تشارك كلمة مرور DXN أو رموز التحقق.</p></div>
+</section>
+<footer>مجتمع الناجحين · قيادة القائد محمد محمود عبد الرحمان<br>هذه نسخة أولية للعرض والتجربة وليست نظامًا إنتاجيًا آمنًا بعد.</footer>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+$('joinForm').addEventListener('submit',e=>{e.preventDefault();const d=Object.fromEntries(new FormData(e.target));$('joinStatus').hidden=false;$('joinStatus').textContent=`تم تجهيز طلب ${d.name}. الحالة: بانتظار مراجعة الإدارة. (عرض تجريبي؛ لم يتم إرسال البيانات إلى خادم)`;e.target.reset()});
+$('meetingForm').addEventListener('submit',e=>{e.preventDefault();const d=Object.fromEntries(new FormData(e.target));const key='najihin_meetings';const all=JSON.parse(localStorage.getItem(key)||'[]');all.push(d);localStorage.setItem(key,JSON.stringify(all));$('meetingStatus').hidden=false;$('meetingStatus').textContent=`تم حفظ موعد ${d.kind} بتاريخ ${d.date} الساعة ${d.time} على هذا الجهاز.`;e.target.reset()});
+</script></body></html>
